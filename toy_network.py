@@ -88,7 +88,7 @@ for i in range(NETWORKS):
     profile_day_wind = np.array([0.6, 0.6, 0.7, 0.5, 0.4, 0.4, 0.5, 0.7, 0.8, 0.7, 0.5, 0.5, 0.4, 0.5, 0.4, 0.5, 0.6, 0.6, 0.3, 0.4, 0.7, 0.6, 0.4, 0.5])
 
 
-    df_noise = pd.DataFrame({'p_noise': P_NOISE, 'v_noise': V_NOISE, 'i_noise': I_NOISE, 'PM_NOISE': PM_NOISE, 'SGEN_NOISE': SGEN_NOISE, 'zero_inj_coef': ZERO_INJ_COEF}, index=['def_value'])
+    df_noise = pd.DataFrame({'p_noise': P_NOISE, 'v_noise': V_NOISE, 'i_noise': I_NOISE, 'pm_noise': PM_NOISE, 'SGEN_NOISE': SGEN_NOISE, 'zero_inj_coef': ZERO_INJ_COEF}, index=['def_value'])
 
     # Load sampling for scenario generation
     load_p = pd.DataFrame()
